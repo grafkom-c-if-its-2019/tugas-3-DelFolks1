@@ -217,6 +217,13 @@
 
     var vPosition = gl.getAttribLocation(program, 'vPosition');
     var vColor = gl.getAttribLocation(program, 'vColor');
+       
+    function onKeyPress(event) {
+      if (event.keyCode == 83 || event.keyCode == 115) {
+        rotAdder = 0.0;
+      } else if (event.keyCode == 67 || event.keyCode == 99) {
+        rotAdder = 0.5;
+      }
 
     function onKeyPress(event) {
       if (event.keyCode == 88 || event.keyCode == 120) {
