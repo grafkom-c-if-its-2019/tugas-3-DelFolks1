@@ -225,7 +225,6 @@
         rotAdder = 0.5;
       }
 
-    function onKeyPress(event) {
       if (event.keyCode == 88 || event.keyCode == 120) {
         axis = xAxis;
       } else if (event.keyCode == 89 || event.keyCode == 121) {
